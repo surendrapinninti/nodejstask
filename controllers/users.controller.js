@@ -30,6 +30,7 @@ else
 exports.updateusre=(req,res)=>{
 
 users.findByIdAndUpdate({"_id":req.params.id},function(err,result){
+users.updateOne({"_id":req.params.id},function(err,result){
     if(err){
         res.send(err);
     }
