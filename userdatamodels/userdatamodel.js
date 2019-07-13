@@ -1,4 +1,4 @@
-var mongoose =require('mongooses');
+var mongoose =require('mongoose');
 var Schema=mongoose.Schema;
 
 
