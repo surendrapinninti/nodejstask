@@ -1,5 +1,5 @@
 const db=require("../bin/config");
-var users=require("../userdata.models/usermodel");
+var users=require("../userdatamodels/userdatamodel");
 
 exports.adduser=(req,res)=>{
 var data=new users(req.body)
